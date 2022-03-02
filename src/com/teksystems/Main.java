@@ -6,7 +6,7 @@ public class Main {
 //        problemOne();
 //        problemTwo();
 //        problemThree();
-        problemFour();
+//        problemFour();
         problemFive();
         problemSix();
         problemSeven();
@@ -112,9 +112,22 @@ public class Main {
         // Write a program that declares 3 int variables x, y, and z.
         // Assign 7 to x and 17 to y.
         // Write a comment that indicates what you predict will be the result of the bitwise & operation on x and y.
+        int x = 7;
+        int y = 17;
+        int z;
+        //Bitwise & operation prediction: decimal: 1 binary: 1
+
         // Now use the bitwise & operator to derive the decimal and binary values and assign the result to z.
+        z = (x & y);
+        System.out.println(z);
+        System.out.println(Integer.toBinaryString(z));
+
         // Now, with the preceding values, use the bitwise | operator to calculate the “or” value between x and y.
         // As before, write a comment that indicates what you predict the values to be before printing them out.
+        //Bitwise | operation prediction: decimal: 23 binary: 10111
+        z = (x | y);
+        System.out.println(z);
+        System.out.println(Integer.toBinaryString(z));
     }
 
     public static void problemSix () {
