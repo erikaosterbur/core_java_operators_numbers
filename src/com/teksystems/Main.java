@@ -15,23 +15,23 @@ public class Main {
 
     public static void problemOne () {
         // Write the following integers in binary notation:
-        // 1
-        // 8
-        // 33
-        // 78
-        // 787
-        // 33,987
+        // 1 -> 1
+        // 8 -> 1000
+        // 33 -> 1000 01
+        // 78 -> 1001 110
+        // 787 -> 1100 0100 11
+        // 33,987 -> 1000 0100 1100 0011
 
     }
 
     public static void problemTwo () {
         // Convert the following binary numbers to decimal notation:
-        // 0010
-        // 1001
-        // 0011 0100
-        // 0111 0010
-        // 0010 0001 1111
-        // 0010 1100 0110 0111
+        // 0010 ->
+        // 1001 ->
+        // 0011 0100 ->
+        // 0111 0010 ->
+        // 0010 0001 1111 ->
+        // 0010 1100 0110 0111 ->
     }
 
     public static void problemThree () {
