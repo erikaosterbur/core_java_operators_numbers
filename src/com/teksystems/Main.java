@@ -37,10 +37,37 @@ public class Main {
     public static void problemThree () {
         // Write a program that declares an integer a variable x and assigns the value 2 to it
         // and prints out the binary string version of the number ( Integer.toBinaryString(x) ).
+        int x = 2;
+        System.out.println(Integer.toBinaryString(x));
+
         // Now, use the left shift operator (<<) to shift by 1 and assign the result to x.
+        x = x << 1;
         // Before printing the results, write a comment with the predicted decimal value and binary string.
         // Now, print out x in decimal form and in binary notation.
+        System.out.println(x); //4
+        System.out.println(Integer.toBinaryString(x)); //100
+
         // Do the preceding exercise with the following values: 9, 17, 88
+        int y = 9;
+        System.out.println(Integer.toBinaryString(y));
+
+        y = y << 1;
+        System.out.println(y); //18
+        System.out.println(Integer.toBinaryString(y)); //10010
+
+        int z = 17;
+        System.out.println(Integer.toBinaryString(z));
+
+        z = z << 1;
+        System.out.println(z); //34
+        System.out.println(Integer.toBinaryString(z)); //100010
+
+        int a = 88;
+        System.out.println(Integer.toBinaryString(a));
+
+        a = a << 1;
+        System.out.println(a); //176
+        System.out.println(Integer.toBinaryString(a)); //10110000
 
     }
 
