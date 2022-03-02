@@ -26,12 +26,12 @@ public class Main {
 
     public static void problemTwo () {
         // Convert the following binary numbers to decimal notation:
-        // 0010 ->
-        // 1001 ->
-        // 0011 0100 ->
-        // 0111 0010 ->
-        // 0010 0001 1111 ->
-        // 0010 1100 0110 0111 ->
+        // 0010 -> 2
+        // 1001 -> 9
+        // 0011 0100 -> 52
+        // 0111 0010 -> 114
+        // 0010 0001 1111 -> 543
+        // 0010 1100 0110 0111 -> 11,367
     }
 
     public static void problemThree () {
