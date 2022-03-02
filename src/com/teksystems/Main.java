@@ -7,7 +7,7 @@ public class Main {
 //        problemTwo();
 //        problemThree();
 //        problemFour();
-        problemFive();
+//        problemFive();
         problemSix();
         problemSeven();
         problemEight();
@@ -133,11 +133,17 @@ public class Main {
     public static void problemSix () {
         // Write a program that declares an integer variable, assigns a number, and uses a postfix increment operator to increase the value.
         // Print the value before and after the increment operator.
+        int x = 4;
+        System.out.println(x);
+        x++;
+        System.out.println(x);
+
     }
 
     public static void problemSeven () {
         // Write a program that demonstrates at least 3 ways to increment a variable by 1 and does this multiple times.
         // Assign a value to an integer variable, print it, increment by 1, print it again, increment by 1, and then print again.
+
     }
 
     public static void problemEight () {
