@@ -3,9 +3,9 @@ package com.teksystems;
 public class Main {
 
     public static void main(String[] args) {
-        problemOne();
-        problemTwo();
-        problemThree();
+//        problemOne();
+//        problemTwo();
+//        problemThree();
         problemFour();
         problemFive();
         problemSix();
@@ -73,10 +73,38 @@ public class Main {
 
     public static void problemFour () {
         // Write a program that declares a variable x and assigns 150 to it and prints out the binary string version of the number.
+        int x = 150;
+        System.out.println(Integer.toBinaryString(x));
+
         // Now use the right shift operator (>>) to shift by 2 and assign the result to x.
+        x = x >> 2;
+
         // Write a comment indicating what you anticipate the decimal and binary values to be.
         // Now print the value of x and the binary string.
-        // Do the preceding exercise with the following values: 225, 1555, 32456
+        System.out.println(x);//37
+        System.out.println(Integer.toBinaryString(x));//10010110
+
+       // Do the preceding exercise with the following values: 225, 1555, 32456
+        int y = 225;
+        System.out.println(Integer.toBinaryString(y));
+
+        y = y >> 2;
+        System.out.println(y);//56
+        System.out.println(Integer.toBinaryString(y));//111000
+
+        int z = 1555;
+        System.out.println(Integer.toBinaryString(z));
+
+        z = z >> 2;
+        System.out.println(z);//388
+        System.out.println(Integer.toBinaryString(z));//110000100
+
+        int a = 32456;
+        System.out.println(Integer.toBinaryString(a));
+
+        a = a >> 2;
+        System.out.println(a);//8114
+        System.out.println(Integer.toBinaryString(a));//1111110110010
 
     }
 
