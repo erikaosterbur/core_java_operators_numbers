@@ -8,7 +8,7 @@ public class Main {
 //        problemThree();
 //        problemFour();
 //        problemFive();
-        problemSix();
+//        problemSix();
         problemSeven();
         problemEight();
     }
@@ -143,7 +143,13 @@ public class Main {
     public static void problemSeven () {
         // Write a program that demonstrates at least 3 ways to increment a variable by 1 and does this multiple times.
         // Assign a value to an integer variable, print it, increment by 1, print it again, increment by 1, and then print again.
-
+        int x = 5;
+        x++;
+        System.out.println(x);
+        ++x;
+        System.out.println(x);
+        x = x + 1;
+        System.out.println(x);
     }
 
     public static void problemEight () {
